@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+}
+
+header {
+
+    height: 247px;
+    background: linear-gradient(to right, #db9009 0%, #8F00FF 81%);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.frame {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.logo-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 235px;
+    height: 153px;
+}
+/* ... предыдущие стили ... */
+
+.mission {
+    position: relative;
+    /* margin-top: 20px; - Убрано */
+}
+
+.image-container {
+    position: relative;
+    height: 1001px;
+}
+
+.museum-image {
+    width: 100%;
+    filter: brightness(0.45); /* Затемнение изображения */
+}
+
+.mission-text {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+}
+
+.mission-title {
+    font-family: 'Merriweather', serif;
+    font-size: 70px;
+}
+
+.mission-description {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.learn-more {
+    background-color: #DA7649;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    width: 247px;
+    height: 82px;
+}
+
+.about-link {
+    color: white;
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    background-color: #c0613f;
+    font-size: 20px;
+}
+
+.exp1 {
+  margin-bottom: 0px;
+  height: 1000px;
+}
+
+.exp1-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.exp1-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.45);
+}
+
+.exp1-text {
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  font-size: 70px;
+}
+
+.exp1-text h2 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.exp1-text p {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.exp1-btn {
+  position: absolute;
+  bottom: 30%;
+  left: 20px;
+  width: 247px;
+  height: 82px;
+  background-color: #DA7649;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+
+.exp1-link {
+  color: white;
+  text-decoration: none;
+}
+
+.exp1-btn:hover {
+    background-color: #c0613f;
+    font-size: 20px;
+}
+
+.exp1-site {
+  font-size: 30px;
+  text-align: center;
+  background-color: #D9D9D9;
+  font-family: 'Merriweather', serif;
+  bottom: 15px;
+}
+
+.exp-line {
+    width: 100%;
+    height: 15px;
+    margin-top: 0px;
+    bottom: 10px;
+    background: linear-gradient(to right, #db9009 0%, #8F00FF 81%);
+}
+
+.exp2 {
+  margin-bottom: 0px;
+  height: 1000px;
+}
+
+.exp2-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.exp2-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.45);
+}
+
+.exp2-text {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: white;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  font-size: 70px;
+}
+
+.exp2-text h2 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.exp2-text p {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.exp2-link {
+  position: absolute;
+  bottom: 30%;
+  right: 20px;
+  width: 247px;
+  height: 82px;
+  background-color: #DA7649;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+
+.exp2-link:hover {
+    background-color: #c0613f;
+    font-size: 20px;
+}
+
+.foter {
+    width: 100%;
+    height: 151px;
+    margin-top: 0px;
+    bottom: 10px;
+    background: linear-gradient(to right, #db9009 0%, #8F00FF 81%);
+}
+
+.exp2-link {
+  color: white;
+  text-decoration: none;
+}
+
+.exp1-img {
+  width: 60%;
+}
+
+.nazwanie {
+  text-align: center;
+  background-color: #3c3c3c;
+  color: white;
+  font-size: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    padding-bottom: 20px;
+}
+
+.gallery img {
+    width: 350px;
+    height: 350px;
+}
+
+.zvonok {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.exp2-img-0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.exp2-img0 {
+  width: 50%;
+  height: auto;
+}
+
+.nazvanie2 {
+  margin-left: 375px;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+.exp2-text1 {
+  margin-left: 375px;
+  margin-right: 375px;
+  font-size: 23px;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+.exp2-img-1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.exp2-img1 {
+  width: 100%;
+  height: auto;
+}
+
+.exp2-img-2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.exp2-img2 {
+  width: 100%;
+  height: auto;
+}
+
+.exp2-img-3 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.exp2-img3 {
+  width: 100%;
+  height: auto;
+}
+
+.about-text {
+  font-size: 23px;
+  font-family: 'Merriweather', serif;
+  margin-left: 375px;
+  margin-right: 375px;
+  line-height: 2;
+}
